@@ -47,13 +47,10 @@
                 <a href="#about" onclick=$("#menu-close").click();>About Me</a>
             </li>
             <li>
+                <a href="#portfolio" onclick=$( "#menu-close").click();>Projects</a>
+            </li>
+            <li>
                 <a href="#services" onclick=$("#menu-close").click();>Technical Toolbox</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
-            </li>
-            <li>
-                <a href="#others" onclick=$("#menu-close").click();>Other Interests</a>
             </li>
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contact Me</a>
@@ -71,20 +68,6 @@
         </div>
     </header>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Let's Connect!</h3>
-                    <hr class="small">
-                    <a target="_blank" href="https://www.github.com/andrewc91" class="btn btn-lg btn-dark"><i class="fa fa-github fa-fw fa-1x"></i> GITHUB</a>
-                    <a target="_blank" href="https://www.linkedin.com/in/andrew-choe" class="btn btn-lg btn-dark"><i class="fa fa-linkedin fa-fw fa-1x"></i> LINKEDIN</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
@@ -93,11 +76,13 @@
                     <h1>About Me</h1>
                     <hr class="small">
                     <p class="lead">
-                      Recently graduated web developer proficient in Python, MEAN, and C#/.NET Core stacks<br>
-                      with the ability to develop web applications from scratch. Knowledgeable in SQL and NoSQL<br>
-                      to establish connections between multiple datasets. Experienced in researching, testing, and deployment.<br>
-                      Formerly a business manager with excellent communication and team-building skills. I love tackling complex problems<br>
-                      and always looking to learn something new. Studied Management Information Systems at University of Washington in Seattle.
+                        Recently graduated software developer proficient in Python, MEAN, and C#/.NET Core stacks
+                        <br> with the ability to develop web applications from scratch. Knowledgeable in SQL and NoSQL
+                        <br> to establish connections between multiple datasets. Experienced in researching, testing, and deployment.
+                        <br> Formerly a business manager with excellent communication and team-building skills. I love tackling complex
+                        problems
+                        <br> and always looking to learn something new. Studied Management Information Systems at University of Washington
+                        in Seattle.
                     </p>
                 </div>
             </div>
@@ -106,9 +91,57 @@
         <!-- /.container -->
     </section>
 
+
+
+
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Projects</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <h4 style="color: white">PlateMate</h3>
+                        <div class="col-md-12">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/andrewc91/Project_PlateMate/tree/master/hidden_dishes/apps" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/platemate.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <h4 style="color: white">DOJO Movies</h3>
+                        <div class="col-md-12">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/andrewc91/Movie_Review/tree/master/movie_review" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/movie_review.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <h4 style="color: white">Tech-Talk Board</h3>
+                        <div class="col-md-12">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/andrewc91/MEAN/tree/master/MEAN/discussion_board">
+                                    <img class="img-portfolio img-responsive" src="img/tech_talk.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
     <!-- Technical Skills -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <!-- <section id="services" class="services bg-primary"> -->
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -137,7 +170,7 @@
                                 <h4>
                                     <strong>MEAN Stack</strong>
                                 </h4>
-                                <p>Full-stack JavaScript framework. Includes MongoDB, ExpressJS, AngularJS, and Node.js.</p>
+                                <p>Full-stack JavaScript. Includes MongoDB, ExpressJS, AngularJS, and Node.js.</p>
                                 <a target="_blank" href="https://docs.angularjs.org/guide" class="btn btn-light">More on Angular</a>
                             </div>
                         </div>
@@ -163,7 +196,7 @@
                                 <h4>
                                     <strong>Other Skills</strong>
                                 </h4>
-                                <p>HTML5, CSS3, jQuery, Git, Ajax, Bootstrap, RWD, API, OOP, Deployment, MVC Framework</p>
+                                <p>HTML5, CSS3, jQuery, Git, Ajax, Bootstrap, REST, API, OOP, Deployment, MVC Framework</p>
                             </div>
                         </div>
                     </div>
@@ -176,63 +209,23 @@
         <!-- /.container -->
     </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>My Work</h2>
+                <div class="col-lg-12 text-center">
+                    <h3>Let's Connect!</h3>
                     <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                    <a target="_blank" href="https://www.github.com/andrewc91" class="btn btn-lg btn-dark">
+                        <i class="fa fa-github fa-fw fa-1x"></i> GITHUB</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/andrew-choe" class="btn btn-lg btn-dark">
+                        <i class="fa fa-linkedin fa-fw fa-1x"></i> LINKEDIN</a>
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <section id="others">
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>My Other Interests</h1>
-            <h3>I enjoy playing sports such as basketball, soccer, and volleyball</h3>
-            <h3>I also go hiking, rock-climbing</h3>
         </div>
     </aside>
-  </section>
 
     <!-- Map -->
     <!-- <section id="contact" class="map">

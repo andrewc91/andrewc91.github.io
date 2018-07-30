@@ -215,6 +215,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color:#377BB5;
 }
 
 .portfolio-item {
@@ -223,11 +224,22 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    width: auto;
+    height: 310px;
+    border-radius: 10px;
 }
 
 .img-portfolio:hover {
     opacity: 0.8;
 }
+
+
+* {
+    box-sizing: border-box
+}
+
+
+
 
 /* Call to Action */
 
